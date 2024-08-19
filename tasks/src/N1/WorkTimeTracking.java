@@ -62,13 +62,13 @@ public class WorkTimeTracking {
 		System.out.println("Work time added.");
 	}
 
-	private void logWorkTime() {
+	void logWorkTime() {
 		for (WorkTimeTracking time : workTimeList) {
 			System.out.println("Customer: " + time.customerName + ", Project: " + time.projectName + ", Hours: " + time.workHours);
 		}
 	}
 
-	private void displayWorkTimeForCustomer(String customer) {
+	void displayWorkTimeForCustomer(String customer) {
 		double totalHours = 0;
 		for (WorkTimeTracking time : workTimeList) {
 			if (time.customerName.equals(customer)) {
