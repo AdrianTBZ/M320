@@ -19,7 +19,7 @@ public class WorkTimeTrackingTest {
 	@Test
 	public void addWorkTime() {
 
-		String customer = "Customer1";
+		String customer = "CustoFFmer1";
 		String project = "Project X";
 		double hours = 5.0;
 
