@@ -5,8 +5,9 @@ import java.util.List;
 import java.util.Scanner;
 
 public class Bankschalter {
-	private  Scanner scanner;
+	private Scanner scanner;
 	private Konto[] konten;
+
 	private Bankschalter() {
 		konten = new Konto[3];
 		List<String> mylist = new ArrayList<String>();
