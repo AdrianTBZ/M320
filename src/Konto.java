@@ -1,6 +1,6 @@
 public class Konto {
 	private String kontonummer;
-	public double saldo;
+	private double saldo;
 
 	public Konto(String kontonummer) {
 		this.kontonummer = kontonummer;
@@ -16,7 +16,7 @@ public class Konto {
 	}
 
 	public void geldEinzahlen(double betrag) {
-		this.saldo -= betrag;
+		this.saldo += betrag;
 	}
 
 	public void geldAbheben(double betrag) {
