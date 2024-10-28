@@ -16,7 +16,7 @@ public class Konto {
 	}
 
 	public void geldEinzahlen(double betrag) {
-		this.saldo -= betrag;
+		this.saldo += betrag;
 	}
 
 	public void geldAbheben(double betrag) {
