@@ -45,3 +45,4 @@ Das Projekt besteht aus den folgenden Klassen:
 ## 5. Sequenzdiagramm für einen Use-Case
 
 ![Sequenzdiagramm](Sequenzdiagramm.jpg)
+![Sequenzdiagramm](https://github.com/user-attachments/assets/ff4542af-e4a0-42a3-b71a-fb493071c947)
