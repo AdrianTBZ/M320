@@ -28,7 +28,11 @@ Das Projekt besteht aus den folgenden Klassen:
 
 ## 3. Verwendung des Design-Patterns
 
-tbd
+### Singleton-Pattern
+
+**Design-Pattern**: Singleton  
+**Anwendung**: Die Klasse `Bank` verwendet das Singleton-Pattern, um sicherzustellen, dass nur eine Instanz der Bank existiert.  
+**Begründung**: Da es nur eine zentrale Bank-Instanz geben sollte, über die alle Konten und Operationen verwaltet werden, verhindert das Singleton-Pattern die unkontrollierte Erzeugung mehrerer Bank-Instanzen.
 
 ## 4. Abschluss des Projekts
 
