@@ -11,4 +11,8 @@ public class Sparkonto extends Konto {
 		geldEinzahlen(zinsen);
 		System.out.println("Zinsen von " + zinsen + " " + getWaehrung().getName() + " wurden auf das Sparkonto gutgeschrieben.");
 	}
+
+	public double getZinsRate() {
+		return zinsRate;
+	}
 }
