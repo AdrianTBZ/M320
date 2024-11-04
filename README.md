@@ -17,7 +17,7 @@ Das Projekt besteht aus den folgenden Klassen:
 
 ## 2. Initiales Architekturdiagramm (Klassendiagramm)
 
-tbd
+![Klassendiagramm_vorher](Klassendiagramm_vorher.jpg)
 
 ### Beschreibung der Architektur
 
@@ -38,10 +38,10 @@ tbd
 
 ### Abschliessendes Klassendiagramm
 
-tbd
+![Klassendiagramm_nachher](Klassendiagramm_nachher.jpg)
 
 ### Vergleich der initialen und abschliessenden Architektur
 
 ## 5. Sequenzdiagramm für einen Use-Case
 
-tbd
+![Sequenzdiagramm](Sequenzdiagramm.jpg)
